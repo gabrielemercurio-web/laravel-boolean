@@ -5,6 +5,7 @@ $colore-verde: #61ce4e;
 
 //! END $VARIABILI
 
+
 //* ------------------------------ @MIXIN
 @mixin my_flex($direction, $justify, $align) {
     display: flex;
@@ -17,13 +18,19 @@ $colore-verde: #61ce4e;
 
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container-2 {
+    max-width: 1100px;
+    height: 100%;
+    margin: auto;
 }
 
 li {

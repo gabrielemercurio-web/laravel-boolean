@@ -1,0 +1,36 @@
+//! ------------------------------- $VARIABILI
+$colore-primario: #1b3c59;
+$colore-secondario: #e8ebf1;
+$colore-verde: #61ce4e;
+
+//! END $VARIABILI
+
+//* ------------------------------ @MIXIN
+@mixin my_flex($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+//* END @MIXIN
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+
+    a {
+        color: $colore-primario;
+        text-decoration: none;
+    }
+}

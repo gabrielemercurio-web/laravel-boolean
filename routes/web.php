@@ -18,6 +18,6 @@ Route::get('/', function () {
     return view('home');
 })->name('homepage');
 
-Route::get('/contatti', function () {
-    return view('contatti');
-})->name('contatti');
+Route::get('/privacy-policy', function () {
+    return view('privacy');
+})->name('privacy');

@@ -166,6 +166,7 @@ footer .footer-top .footer-top-right ul {
 
 footer .footer-top .footer-top-right li {
   text-align: right;
+  list-style-type: none;
 }
 
 footer .footer-top .footer-top-right li a {
@@ -183,6 +184,10 @@ footer .footer-bottom {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+footer .footer-bottom a {
+  text-decoration: none;
 }
 
 footer .footer-bottom .fab {
